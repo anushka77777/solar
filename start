@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Create a virtual environment
+VENV_DIR=$HOME/anushka/solar/jupyter_env
+
+python3 -m venv $VENV_DIR
+source $VENV_DIR/bin/activate
+
+# Upgrade pip
+#pip install --upgrade pip
+
+# Install Jupyter Notebook
+#pip install jupyter
+
+# Launch Jupyter Notebook
+jupyter notebook
+
